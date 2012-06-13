@@ -32,7 +32,6 @@ ul {
 
 #main h3 {
   margin: 15px 0 0 0;
-  text-decoration: underline;
 }
   
 #header {
@@ -42,11 +41,19 @@ ul {
 }
 
 #media img {
-  width: 20px;
-  margin-bottom: -4px;
+  width: 15px;
+  margin-bottom: -2px;
+  margin-right: 2px;
+}
+
+#media {
+  width: 300px;
+  border-top: 1px solid grey;
+  margin: 0 auto;
+  font-size: 90%;
+  padding-top: 5px;
 }
 
 #media li {
-  display: inline;
-  
+  text-align: left;
 }
