@@ -4,6 +4,7 @@ body {
   font-family: Helvetica;
   margin: 0;
   padding: 0;
+  background: white url(../images/background.png) repeat ;
 }
 
 a {
@@ -21,7 +22,7 @@ ul {
 
 
 #main #logo {
-  margin-top: 60px;
+  margin: 30px 0 10px 0;
 }
 
 #main {
@@ -37,7 +38,15 @@ ul {
   
 #header {
   width: 100%;
-  background-color: #DC2B33;
+  background: rgb(179,0,0);
+  background: -moz-linear-gradient(top,  rgb(179,0,0) 0%, rgb(150,0,0) 53%, rgb(170,2,34) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(179,0,0)), color-stop(53%,rgb(150,0,0)), color-stop(100%,rgb(170,2,34)));
+  background: -webkit-linear-gradient(top,  rgb(179,0,0) 0%,rgb(150,0,0) 53%,rgb(170,2,34) 100%);
+  background: -o-linear-gradient(top,  rgb(179,0,0) 0%,rgb(150,0,0) 53%,rgb(170,2,34) 100%);
+  background: -ms-linear-gradient(top,  rgb(179,0,0) 0%,rgb(150,0,0) 53%,rgb(170,2,34) 100%);
+  background: linear-gradient(to bottom,  rgb(179,0,0) 0%,rgb(150,0,0) 53%,rgb(170,2,34) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b30000', endColorstr='#aa0222',GradientType=0 );
+  text-shadow: -1px -1px #62171C;
   margin: 0px;
 }
 
