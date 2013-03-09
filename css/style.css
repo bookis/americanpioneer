@@ -42,15 +42,16 @@ ul {
   margin: 15px 0 0 0;
 }
 
-#main #content h2 {
+#main #content h4 {
   margin-top: 5px;
 }
+
 #main #content {
   background-color: rgba(205, 205, 205, 0.75);
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 6px;
-  width: 350px;
+  width: 320px;
   margin: 0 auto;
   padding: 5px;
 }
